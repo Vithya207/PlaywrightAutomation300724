@@ -1,0 +1,97 @@
+{
+    "adminCredentials": {
+    "username": "admin",
+    "password": "password"
+  },
+
+    "create": {
+      "valid": [
+        {
+          "roomNo": "10A1",
+          "type": "Double",
+          "accessible": "true",
+          "facilities": ["wifi", "tv"],
+          "price": "102",
+          "description": "Double room with a view"
+        },
+        {
+          "roomNo": "10A2",
+          "type": "Single",
+          "accessible": "true",
+          "facilities": ["wifi"],
+          "price": "150",
+          "description": "Single with ocean view"
+        }
+      ],
+      "invalid": [
+        {
+          "roomNo": "",
+          "type": "Single",
+          "accessible": "true",
+          "facilities": ["wifi"],
+          "price": "100",
+          "error": "Room name must be set"
+        }
+      ]
+    },
+    "update": [
+      {
+        "existingRoom": {
+          "roomNo": "10A1",
+          "type": "Double",
+          "accessible": "true",
+          "facilities": ["wifi", "tv"],
+          "price": 100,
+          "description": "Double room with a view"
+        },
+        "updatedData": {
+          "roomNo": "10A3",
+          "type": "Twin",
+          "accessible": "true",
+          "facilities": ["wifi", "tv", "radio"],
+          "price": 200,
+          "description": "Twin suite with a private jacuzzi"
+        }
+      }
+    ],
+    "updateinvalid": [
+      {
+        "existingRoom": {
+          "roomNo": "10A3",
+          "type": "Twin",
+          "accessible": "true",
+          "facilities": ["wifi", "tv", "radio"],
+          "price": 200,
+          "description": "Twin suite with a private jacuzzi"
+        },
+        "updatedData": {
+          "roomNo": "10A3",
+          "type": "Twin",
+          "accessible": "true",
+          "facilities": ["wifi", "tv", "radio"],
+          "price": 0,
+          "description": "Twin suite with a private jacuzzi",
+          "languages": {
+                "en": {
+                    "error": "must be greater than or equal to 1"
+                },
+                "de": {
+                    "error": "muss größer oder gleich 1 sein"
+                 }
+            }
+        }
+      }
+    ],
+    "delete": [
+      {
+        "roomNo": "10A1"
+      },
+      {
+        "roomNo": "10A2"
+      },
+      {
+        "roomNo": "10A3"
+      }
+    ]
+    
+  }  

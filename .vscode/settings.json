@@ -1,0 +1,15 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\vithy\\AppData\\Roaming\\npm;${env:PATH}"
+    },
+    "terminal.integrated.accessibleViewPreserveCursorPosition": false,
+    "task.problemMatchers.neverPrompt": false,
+    "terminal.integrated.shellIntegration.enabled": true
+}
+

@@ -1,0 +1,14 @@
+Error editing room details: ReferenceError: page is not defined
+    at RoomDetailsPage.updateRoom (C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\pages\RoomDetailsPage.js:39:11)
+    at C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\tests\adminTests.spec.js:79:13
+    at C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\workerMain.js:339:9
+    at C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\testInfo.js:296:11
+    at TimeoutManager.withRunnable (C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\timeoutManager.js:53:14)
+    at TestInfoImpl._runAsStage (C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\testInfo.js:294:7)
+    at C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\workerMain.js:331:7
+    at C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\testInfo.js:296:11
+    at TimeoutManager.withRunnable (C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\timeoutManager.js:41:27)
+    at TestInfoImpl._runAsStage (C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\testInfo.js:294:7)
+    at WorkerMain._runTest (C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\workerMain.js:281:5)
+    at WorkerMain.runTestGroup (C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\worker\workerMain.js:205:11)
+    at process.<anonymous> (C:\Users\vithy\OneDrive\Documents\PlaywrightAutomation\node_modules\playwright\lib\common\process.js:95:22)

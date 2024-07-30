@@ -1,0 +1,2 @@
+Current page: https://automationintesting.online/#/admin
+Message: muss größer oder gleich 1 sein
